@@ -1,0 +1,16 @@
+[package]
+name = "shortest-brainfuck"
+version = "0.1.0"
+authors = ["Aster <galaster@foxmail.com>"]
+description = "Shortest brainfuck for given string"
+edition = "2018"
+license = "MPL-2.0"
+readme = "Readme.md"
+repository = "https://github.com/GalAster/brainfuck-shortest"
+exclude = ["/tests/*", "/.idea/*", "/benches/*"]
+
+[dependencies]
+brainfrick = "1.1.1"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
